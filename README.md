@@ -147,6 +147,17 @@ pip freeze > requirements.txt
 ```
 
 ---
+### Ejecutar Main
+
+Instalar FastAPI junto con su servidor:
+```bash
+pip install fastapi uvicorn
+```
+Ejecutar el servidor:
+```bash
+uvicorn main:app --reload
+```
+---
 
 ## Solución de Problemas
 
